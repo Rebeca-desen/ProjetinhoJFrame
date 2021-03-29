@@ -22,7 +22,7 @@ public class Tela_Principal extends javax.swing.JFrame {
            
         this.getContentPane().setBackground(Color.ORANGE);    
         this.setVisible(true);
-         
+        
     }
 
     /**
@@ -40,6 +40,7 @@ public class Tela_Principal extends javax.swing.JFrame {
         jMenu2 = new javax.swing.JMenu();
         CadIngredientes = new javax.swing.JMenuItem();
         Retirada_Ing = new javax.swing.JMenuItem();
+        estoque = new javax.swing.JMenuItem();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -66,6 +67,14 @@ public class Tela_Principal extends javax.swing.JFrame {
             }
         });
         jMenu2.add(Retirada_Ing);
+
+        estoque.setText("Tabela Geral");
+        estoque.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                estoqueActionPerformed(evt);
+            }
+        });
+        jMenu2.add(estoque);
 
         jMenuBar1.add(jMenu2);
 
@@ -100,6 +109,10 @@ public class Tela_Principal extends javax.swing.JFrame {
         // TODO add your handling code here:
       JOptionPane.showMessageDialog(null, "Hello world");
     }//GEN-LAST:event_Retirada_IngActionPerformed
+
+    private void estoqueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_estoqueActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_estoqueActionPerformed
 
     /**
      * @param args the command line arguments
@@ -139,6 +152,7 @@ public class Tela_Principal extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JMenuItem CadIngredientes;
     private javax.swing.JMenuItem Retirada_Ing;
+    private javax.swing.JMenuItem estoque;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JMenu jMenu1;
     private javax.swing.JMenu jMenu2;
