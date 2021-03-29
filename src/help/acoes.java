@@ -5,15 +5,24 @@
  */
 package help;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author André
  */
 public class acoes {
     void cadastro(){
-  float[][] estoque= new float[15][5];
-    String[] alunes= new String[15];
-    String notas;
-    String alunes_input;
+  float[][] estoque= new float[6][3];
+    String[] ingredientes= new String[6];
+    String input_estoque;
+    String ingredientes_input;
+    
+    for(int i=0; i < ingredientes.length;  i++){ 
+    
+    ingredientes_input= JOptionPane.showInputDialog(null, "Adicione o nome do " + (i+1) + "° " + "aluno(a):", null, JOptionPane.QUESTION_MESSAGE);
+    ingredientes[i]= ingredientes_input;
+    
+    }
 }
 }
