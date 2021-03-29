@@ -18,7 +18,7 @@ public class Tela_Principal extends javax.swing.JFrame {
      */
     public Tela_Principal() {
         initComponents();
-        this.getContentPane().setBackground(Color.RED);    
+        this.getContentPane().setBackground(Color.ORANGE);    
         this.setVisible(true);
     }
    
