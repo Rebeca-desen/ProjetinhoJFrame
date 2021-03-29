@@ -6,6 +6,7 @@
 package help;
 
 import java.awt.Color;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -18,12 +19,12 @@ public class Tela_Principal extends javax.swing.JFrame {
      */
     public Tela_Principal() {
         initComponents();
+           
         this.getContentPane().setBackground(Color.ORANGE);    
         this.setVisible(true);
+         
     }
-   
 
-    
     /**
      * This method is called from within the constructor to initialize the form.
      * WARNING: Do NOT modify this code. The content of this method is always
@@ -33,21 +34,72 @@ public class Tela_Principal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jLabel1 = new javax.swing.JLabel();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jMenu1 = new javax.swing.JMenu();
+        jMenu2 = new javax.swing.JMenu();
+        CadIngredientes = new javax.swing.JMenuItem();
+        Retirada_Ing = new javax.swing.JMenuItem();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jLabel1.setFont(new java.awt.Font("Elephant", 1, 36)); // NOI18N
+        jLabel1.setText("Papa's Hamburgueria");
+
+        jMenu1.setText("File");
+        jMenuBar1.add(jMenu1);
+
+        jMenu2.setText("Ingredientes");
+
+        CadIngredientes.setText("Cadastrar");
+        CadIngredientes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                CadIngredientesActionPerformed(evt);
+            }
+        });
+        jMenu2.add(CadIngredientes);
+
+        Retirada_Ing.setText("Retirada");
+        Retirada_Ing.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                Retirada_IngActionPerformed(evt);
+            }
+        });
+        jMenu2.add(Retirada_Ing);
+
+        jMenuBar1.add(jMenu2);
+
+        setJMenuBar(jMenuBar1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 665, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGap(147, 147, 147)
+                .addComponent(jLabel1)
+                .addContainerGap(171, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 355, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel1)
+                .addContainerGap(262, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void CadIngredientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CadIngredientesActionPerformed
+        // TODO add your handling code here:
+         JOptionPane.showMessageDialog(null, "Hello cats");
+    }//GEN-LAST:event_CadIngredientesActionPerformed
+
+    private void Retirada_IngActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Retirada_IngActionPerformed
+        // TODO add your handling code here:
+      JOptionPane.showMessageDialog(null, "Hello world");
+    }//GEN-LAST:event_Retirada_IngActionPerformed
 
     /**
      * @param args the command line arguments
@@ -85,5 +137,11 @@ public class Tela_Principal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JMenuItem CadIngredientes;
+    private javax.swing.JMenuItem Retirada_Ing;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu2;
+    private javax.swing.JMenuBar jMenuBar1;
     // End of variables declaration//GEN-END:variables
 }
