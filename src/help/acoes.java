@@ -31,9 +31,9 @@ public class acoes {
     for(int i=0; i < estoque.length;  i++){ 
     for(int iEstoque=0; iEstoque < estoque[i].length; iEstoque++){
  
-     do {   
+   
         
-    input_estoque=JOptionPane.showInputDialog(null, "Adicione a quantidade de " + ingredientes[i++] + " em estoque");
+    input_estoque=JOptionPane.showInputDialog(null, "Adicione a quantidade de " + ingredientes[i] + " em estoque");
     estoque[i][0]= Float.valueOf(input_estoque);
     
     input_estoque=JOptionPane.showInputDialog(null, "Adicione a quantidade mínima que " + ingredientes[i] + " precisa ter em estoque");
@@ -41,9 +41,11 @@ public class acoes {
     
      input_estoque=JOptionPane.showInputDialog(null, "Adicione o valor unitário de " + ingredientes[i]);
      estoque[i][2]= Float.valueOf(input_estoque);
-     }while(estoque[i][2] !=0);{
+     
+     if(estoque[i][2] <= 0){
         JOptionPane.showMessageDialog(null, "eitcahn");
-    }
+        continue;
+     }
   
     }
     
