@@ -25,13 +25,15 @@ public class acoes {
     ingredientes[i]= ingredientes_input;
     
     input_estoque=JOptionPane.showInputDialog(null, "Adicione a quantidade de " + ingredientes[i] + " em estoque");
-    estoque[i][iEstoque]= Float.valueOf(input_estoque);
+    estoque[i][0]= Float.valueOf(input_estoque);
     
     input_estoque=JOptionPane.showInputDialog(null, "Adicione a quantidade mínima que " + ingredientes[i] + " precisa ter em estoque");
-    estoque[i][iEstoque]= Float.valueOf(input_estoque);
+    estoque[i][1]= Float.valueOf(input_estoque);
     
      input_estoque=JOptionPane.showInputDialog(null, "Adicione o valor unitário de " + ingredientes[i]);
-     estoque[i][iEstoque]= Float.valueOf(input_estoque);
+     estoque[i][2
+             
+             ]= Float.valueOf(input_estoque);
       
     }
     
