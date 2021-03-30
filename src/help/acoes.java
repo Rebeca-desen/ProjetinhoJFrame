@@ -12,7 +12,8 @@ import javax.swing.JOptionPane;
  * @author André
  */
 public class acoes {
-    void cadastro(){
+      public static void main(String[] args){
+    static cadastro(){
   float[][] estoque= new float[6][3];
     String[] ingredientes= new String[6];
     String input_estoque;
@@ -41,4 +42,5 @@ public class acoes {
     }
  }
     }
+      }
 }
