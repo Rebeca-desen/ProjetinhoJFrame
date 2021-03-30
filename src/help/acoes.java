@@ -38,15 +38,18 @@ public class acoes {
     
     input_estoque=JOptionPane.showInputDialog(null, "Adicione a quantidade mínima que " + ingredientes[i] + " precisa ter em estoque");
     estoque[i][1]= Float.valueOf(input_estoque);
-    
+    if(estoque[i][1] > estoque[i][0]){
+        JOptionPane.showMessageDialog(null, "vixi kk ein gata");
+        continue;
+     }else{
      input_estoque=JOptionPane.showInputDialog(null, "Adicione o valor unitário de " + ingredientes[i]);
      estoque[i][2]= Float.valueOf(input_estoque);
      
      if(estoque[i][2] <= 0){
         JOptionPane.showMessageDialog(null, "eitcahn");
        continue;
-     }
-    i++;
+     } else {i++;}
+    }
     
     }
     
