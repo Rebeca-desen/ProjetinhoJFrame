@@ -17,17 +17,20 @@ public class acoes {
   float[][] estoque= new float[6][3];
     String[] ingredientes= new String[6];
     String input_estoque;
-    String ingredientes_input = null;
+    String ingredientes_input;
+     
     
+    
+    
+    for(int i=0; i < estoque.length;  i++){ 
+     ingredientes_input= JOptionPane.showInputDialog(null, "Adicione o nome do ingrediente:" + (i+1));
+     ingredientes[i]= ingredientes_input;
+     }
    
     
     for(int i=0; i < estoque.length;  i++){ 
     for(int iEstoque=0; iEstoque < estoque[i].length; iEstoque++){
-        
-    ingredientes_input= JOptionPane.showInputDialog(null, "Adicione o nome do ingrediente:" + (iEstoque+1));
-    ingredientes[i]= ingredientes_input;
-    
-    
+ 
     input_estoque=JOptionPane.showInputDialog(null, "Adicione a quantidade de " + ingredientes[i] + " em estoque");
     estoque[i][0]= Float.valueOf(input_estoque);
     
