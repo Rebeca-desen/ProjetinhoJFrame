@@ -44,9 +44,10 @@ public class acoes {
      
      if(estoque[i][2] <= 0){
         JOptionPane.showMessageDialog(null, "eitcahn");
-        continue;
+       continue;
      }
-  
+    i++;
+    
     }
     
     }
