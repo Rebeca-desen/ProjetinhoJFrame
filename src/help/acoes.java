@@ -62,7 +62,7 @@ boolean se= false;
        void retirar(float[][] estoque, String[] ingredientes) {
       //mudar pra colocar arrays
        //fazer case mesmo
-           
+           JOptionPane.showMessageDialog(null, "entrei");
            
            int opcao;
            String VInformado;
@@ -82,6 +82,10 @@ boolean se= false;
                 opcao=Integer.valueOf(VInformado);
                  }
        
+    }
+
+    void retirar() {
+              JOptionPane.showMessageDialog(null, "to no errado");
     }
 
    
