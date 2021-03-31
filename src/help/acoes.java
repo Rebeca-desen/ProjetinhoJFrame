@@ -13,7 +13,7 @@ import javax.swing.JOptionPane;
  * @author André
  */
 public class acoes {
-
+boolean se= false;
     /**
      *
      * @param args
@@ -52,25 +52,41 @@ public class acoes {
         continue;
      }
    i++;
-  
+  se= true;
    
-  //  retirar(estoque, ingredientes);
+    retirar(estoque, ingredientes);
     }
     }
     
     }
-       void retirar()
-       {
+       void retirar(float[][] estoque, String[] ingredientes) {
       //mudar pra colocar arrays
        //fazer case mesmo
            
-          JOptionPane.showMessageDialog(null, "E lá vamos nós");
-      
+           
+           int opcao;
+           String VInformado;
+       
+           
+           if(se==false){
+           
+          JOptionPane.showMessageDialog(null, "tem nada aqui naum");
+           }
+                 for(int i=0; i < estoque.length;  i++){ 
+                 VInformado=JOptionPane.showInputDialog(null, "Selecione o ingrediente que deseja retirar\n" 
+                 +"1- " + ingredientes[i-1] + " \n"
+                 +"2- Quantidade de ações com o lucro superior a 1000 \n"
+                 +"3- Quantidade de ações com o lucro inferior a 200\n"
+                 +"4- Lucro total da empresa\n"
+                 +"5- Finalizar\n", null, JOptionPane.QUESTION_MESSAGE);
+                opcao=Integer.valueOf(VInformado);
+                 }
+       
     }
 
-    
+   
+  
 
-    
     
 
         
