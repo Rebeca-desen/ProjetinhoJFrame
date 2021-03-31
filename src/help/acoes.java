@@ -5,6 +5,7 @@
  */
 package help;
 
+import java.util.Arrays;
 import javax.swing.JOptionPane;
 
 /**
@@ -12,7 +13,12 @@ import javax.swing.JOptionPane;
  * @author André
  */
 public class acoes {
-      public static void main(String[] args){
+
+    /**
+     *
+     * @param args
+     */
+    public static void cadastro(String[] args){
    
   float[][] estoque= new float[6][3];
     String[] ingredientes= new String[6];
@@ -49,17 +55,32 @@ public class acoes {
         continue;
      }
    i++;
-    
+  
+   
+    retirar(estoque, ingredientes);
     }
  
  }
-  retirar(input_estoque,ingredientes_input);
+  
       }
-       static void retirar(String input_estoque, String ingredientes_input){
-       //mudar pra colocar arrays
+       static void retirar(float[][] estoque, String[] ingredientes)
+       {
+      //mudar pra colocar arrays
        //fazer case mesmo
+           
+           Arrays.toString(estoque);
+      
+    }
+
+    void cadastro() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+ 
+       
+
        
     }
-      }
+      
   
 

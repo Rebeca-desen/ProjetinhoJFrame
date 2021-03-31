@@ -102,7 +102,8 @@ public class Tela_Principal extends javax.swing.JFrame {
 
     private void CadIngredientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CadIngredientesActionPerformed
         // TODO add your handling code here:
-         JOptionPane.showMessageDialog(null, "Hello cats");
+     acoes cadastrandoIng= new acoes();
+     cadastrandoIng.cadastro();
     }//GEN-LAST:event_CadIngredientesActionPerformed
 
     private void Retirada_IngActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Retirada_IngActionPerformed
