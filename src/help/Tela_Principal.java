@@ -5,6 +5,7 @@
  */
 package help;
 
+import static help.acoes.retirar;
 import java.awt.Color;
 import javax.swing.JOptionPane;
 
@@ -102,10 +103,52 @@ public class Tela_Principal extends javax.swing.JFrame {
 
     private void CadIngredientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CadIngredientesActionPerformed
         // TODO add your handling code here:
-        JOptionPane.showMessageDialog(null, "Hello world all");
-        acoes cadastrandoIng = new acoes();
-        cadastrandoIng.main();
-        JOptionPane.showMessageDialog(null, "nobody");
+       
+     
+   
+   
+  float[][] estoque= new float[6][3];
+    String[] ingredientes= new String[6];
+    String input_estoque = null;
+    String ingredientes_input = null;
+     
+    
+    for(int i=0; i < estoque.length;  i++){ 
+     ingredientes_input= JOptionPane.showInputDialog(null, "Adicione o nome do ingrediente:" + (i+1));
+     ingredientes[i]= ingredientes_input;
+     }
+   
+    
+    for(int i=0; i < estoque.length;  i++){ 
+    for(int iEstoque=0; iEstoque < estoque[i].length; iEstoque++){
+ 
+   
+   
+    input_estoque=JOptionPane.showInputDialog(null, "Adicione a quantidade de " + ingredientes[i] + " em estoque");
+    estoque[i][0]= Float.valueOf(input_estoque);
+    
+    input_estoque=JOptionPane.showInputDialog(null, "Adicione a quantidade mínima que " + ingredientes[i] + " precisa ter em estoque");
+    estoque[i][1]= Float.valueOf(input_estoque);
+    if(estoque[i][1] > estoque[i][0]){
+        JOptionPane.showMessageDialog(null, "vixi kk ein gata");
+        continue;
+     }
+     input_estoque=JOptionPane.showInputDialog(null, "Adicione o valor unitário de " + ingredientes[i]);
+     estoque[i][2]= Float.valueOf(input_estoque);
+   if(estoque[i][2]<=0){
+        JOptionPane.showMessageDialog(null, "vixi kka");
+        continue;
+     }
+   i++;
+  
+   
+    retirar(estoque, ingredientes);
+    }
+ 
+ }
+     
+     
+     
     }//GEN-LAST:event_CadIngredientesActionPerformed
 
     private void Retirada_IngActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Retirada_IngActionPerformed
