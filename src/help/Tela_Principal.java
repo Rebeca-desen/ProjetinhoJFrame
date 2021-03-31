@@ -19,10 +19,10 @@ public class Tela_Principal extends javax.swing.JFrame {
      */
     public Tela_Principal() {
         initComponents();
-           
-        this.getContentPane().setBackground(Color.ORANGE);    
+
+        this.getContentPane().setBackground(Color.ORANGE);
         this.setVisible(true);
-        
+
     }
 
     /**
@@ -102,13 +102,15 @@ public class Tela_Principal extends javax.swing.JFrame {
 
     private void CadIngredientesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_CadIngredientesActionPerformed
         // TODO add your handling code here:
-     acoes cadastrandoIng= new acoes();
-     cadastrandoIng.cadastro();
+        JOptionPane.showMessageDialog(null, "Hello world all");
+        acoes cadastrandoIng = new acoes();
+        cadastrandoIng.main();
+        JOptionPane.showMessageDialog(null, "nobody");
     }//GEN-LAST:event_CadIngredientesActionPerformed
 
     private void Retirada_IngActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Retirada_IngActionPerformed
         // TODO add your handling code here:
-      JOptionPane.showMessageDialog(null, "Hello world");
+        JOptionPane.showMessageDialog(null, "Hello world");
     }//GEN-LAST:event_Retirada_IngActionPerformed
 
     private void estoqueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_estoqueActionPerformed

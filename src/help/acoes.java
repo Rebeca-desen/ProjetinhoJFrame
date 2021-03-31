@@ -14,19 +14,14 @@ import javax.swing.JOptionPane;
  */
 public class acoes {
 
-    /**
-     *
-     * @param args
-     */
-    public static void cadastro(String[] args){
+     public static void main(String[] args){
+   
    
   float[][] estoque= new float[6][3];
     String[] ingredientes= new String[6];
     String input_estoque = null;
     String ingredientes_input = null;
      
-    
-    
     
     for(int i=0; i < estoque.length;  i++){ 
      ingredientes_input= JOptionPane.showInputDialog(null, "Adicione o nome do ingrediente:" + (i+1));
@@ -61,8 +56,8 @@ public class acoes {
     }
  
  }
-  
-      }
+     }
+      
        static void retirar(float[][] estoque, String[] ingredientes)
        {
       //mudar pra colocar arrays
@@ -72,15 +67,20 @@ public class acoes {
       
     }
 
-    void cadastro() {
+    void main() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
- 
-       
+    
+
+        
+}
+
+
+
 
        
-    }
-      
+    
+
   
 
