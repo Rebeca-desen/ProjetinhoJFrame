@@ -16,8 +16,8 @@ public class acoes {
    
   float[][] estoque= new float[6][3];
     String[] ingredientes= new String[6];
-    String input_estoque;
-    String ingredientes_input;
+    String input_estoque = null;
+    String ingredientes_input = null;
      
     
     
@@ -53,7 +53,13 @@ public class acoes {
     }
  
  }
-    
+  retirar(input_estoque,ingredientes_input);
       }
-   }
+       static void retirar(String input_estoque, String ingredientes_input){
+       //mudar pra colocar arrays
+       //fazer case mesmo
+       
+    }
+      }
+  
 
