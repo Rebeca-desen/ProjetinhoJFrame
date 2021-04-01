@@ -47,9 +47,6 @@ public class acoes {
                     continue;
                 }
                 i++;
-               
-
-  
     }
     }
    
@@ -96,10 +93,13 @@ public class acoes {
            
             JOptionPane.showMessageDialog(null,estoque[opcao-1][0] + " - "+valor_retirado[opcao-1] + "= " + valor_final[opcao-1]);
             
-            if(valor_final [opcao-1] < estoque[opcao-1][1]){
+            if(valor_retirado [opcao-1] >= estoque[opcao-1][0]){
               JOptionPane.showMessageDialog(null, "pode naum corazon");  
               continue;  
+            } else{
+                estoque[opcao-1][0]=valor_final[opcao-1];
             }
+            JOptionPane.showMessageDialog(null,estoque[opcao-1][0]);
             
        }while(opcao!=7);{
            JOptionPane.showMessageDialog(null, "bye bye adeus");
