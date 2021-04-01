@@ -93,6 +93,13 @@ public class acoes {
             valor_retirado=Float.valueOf(VInformado);
            
             valor_final[opcao-1]= estoque[opcao-1][0] - valor_retirado;
+           
+            JOptionPane.showMessageDialog(null,estoque[opcao-1][0] + " - "+valor_retirado + "= " + valor_final);
+            
+            if(valor_final [opcao-1] < estoque[opcao-1][1]){
+              JOptionPane.showMessageDialog(null, "pode naum corazon");  
+              continue;  
+            }
             
        }while(opcao!=7);{
            JOptionPane.showMessageDialog(null, "bye bye adeus");
