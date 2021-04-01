@@ -78,26 +78,28 @@ public class acoes {
             JOptionPane.showMessageDialog(null, "tem nada aqui naum");
         }
         else{
-       
+       do {
             VInformado = JOptionPane.showInputDialog(null, "Selecione o ingrediente que deseja retirar\n"
                     + "1- " + ingredientes[0] + " \n"
                     + "2- " + ingredientes[1] + " \n"
                     + "3- " + ingredientes[2] + " \n"
                     + "4- " + ingredientes[3] + " \n"
-                    + "5- " + ingredientes[4] + " \n"        
-                    + "6- " + ingredientes[5] + " \n", null, JOptionPane.QUESTION_MESSAGE);
+                    + "5- " + ingredientes[4] + " \n"    
+                    + "6- " + ingredientes[5] + " \n"
+                    + "7- Finalizar", null, JOptionPane.QUESTION_MESSAGE);
             opcao = Integer.valueOf(VInformado);
         
             VInformado=JOptionPane.showInputDialog(null, "Quanto deseja retirar do ingrediente " + ingredientes[opcao-1] + "?");
             valor_retirado=Float.valueOf(VInformado);
            
             valor_final[opcao-1]= estoque[opcao-1][0] - valor_retirado;
+       }while(valor_final [opcao-1] >= estoque[opcao-1][2] || opcao!=7);{
+            if(opcao==7){
+              JOptionPane.showMessageDialog(null, "tudo ok");
+            } else{
             
-            if(valor_final [opcao-1] < estoque[opcao-1][2]){
-              continue;  
             }
-            
-        
+        }
         }
     
     }
