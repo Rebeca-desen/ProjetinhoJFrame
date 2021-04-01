@@ -14,12 +14,11 @@ import javax.swing.JOptionPane;
  */
 public class acoes {
 boolean se= false;
-
-     float[][] estoque;
-     String[] ingredientes;
+    public static String[] ingredientes = new String[6];
+    public static float[][] estoque = new float[6][3];
+     
     public void cadastro () {
-        estoque = new float[6][3];
-        ingredientes = new String[6];
+       
 
         String input_estoque = null;
         String ingredientes_input = null;
@@ -64,8 +63,7 @@ boolean se= false;
     void retirar() {
       //mudar pra colocar arrays
        //fazer case mesmoe
-        estoque = new float[6][3];
-        ingredientes = new String[6];
+       
         
         JOptionPane.showMessageDialog(null, "entrei");
 
@@ -74,10 +72,11 @@ boolean se= false;
         
        JOptionPane.showMessageDialog(null, ingredientes[0]);
 
-        if (ingredientes == null) {
+        if (ingredientes[5] == null) {
 
             JOptionPane.showMessageDialog(null, "tem nada aqui naum");
         }
+        else{
         for (int i = 0; i < estoque.length; i++) {
             VInformado = JOptionPane.showInputDialog(null, "Selecione o ingrediente que deseja retirar\n"
                     + "1- " + ingredientes[i - 1] + " \n"
@@ -87,6 +86,8 @@ boolean se= false;
                     + "5- \n", null, JOptionPane.QUESTION_MESSAGE);
             opcao = Integer.valueOf(VInformado);
         }
+    }
+    
     }
 
    
