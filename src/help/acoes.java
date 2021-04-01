@@ -25,13 +25,13 @@ boolean se= false;
     /**
      *
      */
-    void cadastro () {
-    float[][] estoque= new float[6][3];
+    
+     float[][] estoque= new float[6][3];
     String[] ingredientes= new String[6];
     String input_estoque = null;
     String ingredientes_input = null;
-     
-    
+   public void cadastro () {
+ 
     for(int i=0; i < estoque.length;  i++){ 
      ingredientes_input= JOptionPane.showInputDialog(null, "Adicione o nome do ingrediente:" + (i+1));
      ingredientes[i]= ingredientes_input;
@@ -61,7 +61,7 @@ boolean se= false;
    i++;
   se= true;
    
-    retirar(estoque, ingredientes);
+  
     }
     }
     
@@ -72,7 +72,7 @@ boolean se= false;
      * @param estoque
      * @param ingredientes
      */
-    void retirar(float[][] estoque, String[] ingredientes) {
+    void retirar() {
       //mudar pra colocar arrays
        //fazer case mesmo
        
