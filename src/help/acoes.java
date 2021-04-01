@@ -93,12 +93,9 @@ public class acoes {
             valor_retirado=Float.valueOf(VInformado);
            
             valor_final[opcao-1]= estoque[opcao-1][0] - valor_retirado;
-       }while(valor_final [opcao-1] >= estoque[opcao-1][2] || opcao!=7);{
-            if(opcao==7){
-              JOptionPane.showMessageDialog(null, "tudo ok");
-            } else{
             
-            }
+       }while(opcao!=7);{
+           JOptionPane.showMessageDialog(null, "bye bye adeus");
         }
         }
     
