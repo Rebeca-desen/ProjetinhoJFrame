@@ -5,7 +5,7 @@
  */
 package help;
 
-import java.util.Arrays;
+import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 
 /**
@@ -14,9 +14,16 @@ import javax.swing.JOptionPane;
  */
 public class acoes {
 boolean se= false;
+
+    acoes(JMenuItem estoque) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    acoes() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     /**
      *
-     * @param args
      */
     void cadastro () {
          float[][] estoque= new float[6][3];
@@ -59,14 +66,22 @@ boolean se= false;
     }
     
     }
-       void retirar(float[][] estoque, String[] ingredientes) {
+
+    /**
+     *
+     * @param estoque
+     * @param ingredientes
+     */
+    void retirar(float[][] estoque, String[] ingredientes) {
       //mudar pra colocar arrays
        //fazer case mesmo
+       
+       
            JOptionPane.showMessageDialog(null, "entrei");
            
            int opcao;
            String VInformado;
-       
+          
            
            if(se==false){
            
@@ -84,9 +99,7 @@ boolean se= false;
        
     }
 
-    void retirar() {
-              JOptionPane.showMessageDialog(null, "to no errado");
-    }
+  
 
    
   
