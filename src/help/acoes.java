@@ -16,7 +16,7 @@ public class acoes {
 boolean se= false;
 
      float[][] estoque;
-   String[] ingredientes;
+     String[] ingredientes;
     public void cadastro () {
         estoque = new float[6][3];
         ingredientes = new String[6];
@@ -71,6 +71,8 @@ boolean se= false;
 
         int opcao;
         String VInformado;
+        
+       JOptionPane.showMessageDialog(null, ingredientes[0]);
 
         if (ingredientes == null) {
 
