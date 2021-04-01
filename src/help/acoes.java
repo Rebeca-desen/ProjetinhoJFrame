@@ -69,7 +69,7 @@ public class acoes {
 
         int opcao;
         String VInformado;
-        float valor_retirado;
+        float[] valor_retirado = new float[6];
         
        JOptionPane.showMessageDialog(null, ingredientes[0]);
 
@@ -90,11 +90,11 @@ public class acoes {
             opcao = Integer.valueOf(VInformado);
         
             VInformado=JOptionPane.showInputDialog(null, "Quanto deseja retirar do ingrediente " + ingredientes[opcao-1] + "?");
-            valor_retirado=Float.valueOf(VInformado);
+            valor_retirado[opcao-1]=Float.valueOf(VInformado);
            
-            valor_final[opcao-1]= estoque[opcao-1][0] - valor_retirado;
+            valor_final[opcao-1]= estoque[opcao-1][0] - valor_retirado[opcao-1];
            
-            JOptionPane.showMessageDialog(null,estoque[opcao-1][0] + " - "+valor_retirado + "= " + valor_final);
+            JOptionPane.showMessageDialog(null,estoque[opcao-1][0] + " - "+valor_retirado[opcao-1] + "= " + valor_final[opcao-1]);
             
             if(valor_final [opcao-1] < estoque[opcao-1][1]){
               JOptionPane.showMessageDialog(null, "pode naum corazon");  
