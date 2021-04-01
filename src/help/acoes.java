@@ -13,10 +13,10 @@ import javax.swing.JOptionPane;
  * @author André
  */
 public class acoes {
-boolean se= false;
+
     public static String[] ingredientes = new String[6];
     public static float[][] estoque = new float[6][3];
-     
+    public static float[] valor_final = new float[6];
     public void cadastro () {
        
 
@@ -47,7 +47,7 @@ boolean se= false;
                     continue;
                 }
                 i++;
-                se = true;
+               
 
   
     }
@@ -69,6 +69,7 @@ boolean se= false;
 
         int opcao;
         String VInformado;
+        float valor_retirado;
         
        JOptionPane.showMessageDialog(null, ingredientes[0]);
 
@@ -77,16 +78,27 @@ boolean se= false;
             JOptionPane.showMessageDialog(null, "tem nada aqui naum");
         }
         else{
-        for (int i = 0; i < estoque.length; i++) {
+       
             VInformado = JOptionPane.showInputDialog(null, "Selecione o ingrediente que deseja retirar\n"
-                    + "1- " + ingredientes[i - 1] + " \n"
-                    + "2-\n"
-                    + "3- \n"
-                    + "4-\n"
-                    + "5- \n", null, JOptionPane.QUESTION_MESSAGE);
+                    + "1- " + ingredientes[0] + " \n"
+                    + "2- " + ingredientes[1] + " \n"
+                    + "3- " + ingredientes[2] + " \n"
+                    + "4- " + ingredientes[3] + " \n"
+                    + "5- " + ingredientes[4] + " \n"        
+                    + "6- " + ingredientes[5] + " \n", null, JOptionPane.QUESTION_MESSAGE);
             opcao = Integer.valueOf(VInformado);
+        
+            VInformado=JOptionPane.showInputDialog(null, "Quanto deseja retirar do ingrediente " + ingredientes[opcao-1] + "?");
+            valor_retirado=Float.valueOf(VInformado);
+           
+            valor_final[opcao-1]= estoque[opcao-1][0] - valor_retirado;
+            
+            if(valor_final [opcao-1] < estoque[opcao-1][2]){
+              continue;  
+            }
+            
+        
         }
-    }
     
     }
 
