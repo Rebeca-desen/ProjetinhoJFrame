@@ -112,7 +112,7 @@ public class Tela_Principal extends javax.swing.JFrame {
     private void Retirada_IngActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Retirada_IngActionPerformed
         // TODO add your handling code here:
         acoes boratirar = new acoes();
-        boratirar.retirar();
+        boratirar.retirar();       
    
     }//GEN-LAST:event_Retirada_IngActionPerformed
 
