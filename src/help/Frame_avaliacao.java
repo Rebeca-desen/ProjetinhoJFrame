@@ -6,12 +6,125 @@
 package help;
 
 import java.awt.Color;
+import javax.swing.JLabel;
 
 /**
  *
  * @author André
  */
 public class Frame_avaliacao extends javax.swing.JFrame {
+
+    public void setjLabel10(JLabel jLabel10) {
+        this.ing_tres = jLabel10;
+    }
+
+    public void setjLabel11(JLabel jLabel11) {
+        this.ing_quatro = jLabel11;
+    }
+
+    public void setjLabel12(JLabel jLabel12) {
+        this.ing_cinco = jLabel12;
+    }
+
+    public void setjLabel13(JLabel jLabel13) {
+        this.QE_zero = jLabel13;
+    }
+
+    public void setjLabel14(JLabel jLabel14) {
+        this.QE_um = jLabel14;
+    }
+
+    public void setjLabel15(JLabel jLabel15) {
+        this.QE_dois = jLabel15;
+    }
+
+    public void setjLabel17(JLabel jLabel17) {
+        this.QE_quatro = jLabel17;
+    }
+
+    public void setjLabel18(JLabel jLabel18) {
+        this.QE_cinco = jLabel18;
+    }
+
+    public void setjLabel19(JLabel jLabel19) {
+        this.Qm_zero = jLabel19;
+    }
+
+    public void setjLabel20(JLabel jLabel20) {
+        this.Qm_um = jLabel20;
+    }
+
+    public void setjLabel21(JLabel jLabel21) {
+        this.Qm_dois = jLabel21;
+    }
+
+    public void setjLabel22(JLabel jLabel22) {
+        this.Qm_tres = jLabel22;
+    }
+
+    public void setjLabel23(JLabel jLabel23) {
+        this.Qm_quatro = jLabel23;
+    }
+
+    public void setjLabel25(JLabel jLabel25) {
+        this.VU_zero = jLabel25;
+    }
+
+    public void setjLabel26(JLabel jLabel26) {
+        this.VU_um = jLabel26;
+    }
+
+    public void setjLabel27(JLabel jLabel27) {
+        this.VU_dois = jLabel27;
+    }
+
+    public void setjLabel28(JLabel jLabel28) {
+        this.VU_tres = jLabel28;
+    }
+
+    public void setjLabel29(JLabel jLabel29) {
+        this.VU_quatro = jLabel29;
+    }
+
+    public void setjLabel30(JLabel jLabel30) {
+        this.VU_cinco = jLabel30;
+    }
+
+    public void setjLabel31(JLabel jLabel31) {
+        this.VT_zero = jLabel31;
+    }
+
+    public void setjLabel32(JLabel jLabel32) {
+        this.VT_um = jLabel32;
+    }
+
+    public void setjLabel33(JLabel jLabel33) {
+        this.VT_dois = jLabel33;
+    }
+
+    public void setjLabel34(JLabel jLabel34) {
+        this.VT_tres = jLabel34;
+    }
+
+    public void setjLabel35(JLabel jLabel35) {
+        this.VT_quatro = jLabel35;
+    }
+
+    public void setjLabel36(JLabel jLabel36) {
+        this.VT_cinco = jLabel36;
+    }
+
+    public void setjLabel7(JLabel jLabel7) {
+        this.ing_zero = jLabel7;
+    }
+
+    public void setjLabel8(JLabel jLabel8) {
+        this.ing_um = jLabel8;
+    }
+
+    public void setjLabel9(JLabel jLabel9) {
+        this.ing_dois = jLabel9;
+    }
 
     /**
      * Creates new form Frame_avaliacao
@@ -34,54 +147,46 @@ public class Frame_avaliacao extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        mostrar_tabela = new javax.swing.JButton();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jLabel8 = new javax.swing.JLabel();
-        jLabel9 = new javax.swing.JLabel();
-        jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
-        jLabel15 = new javax.swing.JLabel();
-        jLabel16 = new javax.swing.JLabel();
-        jLabel17 = new javax.swing.JLabel();
-        jLabel18 = new javax.swing.JLabel();
-        jLabel19 = new javax.swing.JLabel();
-        jLabel20 = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
-        jLabel22 = new javax.swing.JLabel();
-        jLabel23 = new javax.swing.JLabel();
-        jLabel24 = new javax.swing.JLabel();
-        jLabel25 = new javax.swing.JLabel();
-        jLabel26 = new javax.swing.JLabel();
-        jLabel27 = new javax.swing.JLabel();
-        jLabel28 = new javax.swing.JLabel();
-        jLabel29 = new javax.swing.JLabel();
-        jLabel30 = new javax.swing.JLabel();
-        jLabel31 = new javax.swing.JLabel();
-        jLabel32 = new javax.swing.JLabel();
-        jLabel33 = new javax.swing.JLabel();
-        jLabel34 = new javax.swing.JLabel();
-        jLabel35 = new javax.swing.JLabel();
-        jLabel36 = new javax.swing.JLabel();
+        ing_zero = new javax.swing.JLabel();
+        ing_um = new javax.swing.JLabel();
+        ing_dois = new javax.swing.JLabel();
+        ing_tres = new javax.swing.JLabel();
+        ing_quatro = new javax.swing.JLabel();
+        ing_cinco = new javax.swing.JLabel();
+        QE_zero = new javax.swing.JLabel();
+        QE_um = new javax.swing.JLabel();
+        QE_dois = new javax.swing.JLabel();
+        QE_tres = new javax.swing.JLabel();
+        QE_quatro = new javax.swing.JLabel();
+        QE_cinco = new javax.swing.JLabel();
+        Qm_zero = new javax.swing.JLabel();
+        Qm_um = new javax.swing.JLabel();
+        Qm_dois = new javax.swing.JLabel();
+        Qm_tres = new javax.swing.JLabel();
+        Qm_quatro = new javax.swing.JLabel();
+        Qm_cinco = new javax.swing.JLabel();
+        VU_zero = new javax.swing.JLabel();
+        VU_um = new javax.swing.JLabel();
+        VU_dois = new javax.swing.JLabel();
+        VU_tres = new javax.swing.JLabel();
+        VU_quatro = new javax.swing.JLabel();
+        VU_cinco = new javax.swing.JLabel();
+        VT_zero = new javax.swing.JLabel();
+        VT_um = new javax.swing.JLabel();
+        VT_dois = new javax.swing.JLabel();
+        VT_tres = new javax.swing.JLabel();
+        VT_quatro = new javax.swing.JLabel();
+        VT_cinco = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Elephant", 1, 24)); // NOI18N
         jLabel1.setText("Papa's Hamburgueria");
-
-        mostrar_tabela.setText("clique para atualizar a tabela");
-        mostrar_tabela.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                mostrar_tabelaActionPerformed(evt);
-            }
-        });
 
         jLabel2.setText("Ingredientes");
 
@@ -93,65 +198,65 @@ public class Frame_avaliacao extends javax.swing.JFrame {
 
         jLabel6.setText("Valor Total");
 
-        jLabel7.setText("jLabel7");
+        ing_zero.setText("jLabel7");
 
-        jLabel8.setText("jLabel8");
+        ing_um.setText("jLabel8");
 
-        jLabel9.setText("jLabel9");
+        ing_dois.setText("jLabel9");
 
-        jLabel10.setText("jLabel10");
+        ing_tres.setText("jLabel10");
 
-        jLabel11.setText("jLabel11");
+        ing_quatro.setText("jLabel11");
 
-        jLabel12.setText("jLabel12");
+        ing_cinco.setText("jLabel12");
 
-        jLabel13.setText("jLabel13");
+        QE_zero.setText("jLabel13");
 
-        jLabel14.setText("jLabel14");
+        QE_um.setText("jLabel14");
 
-        jLabel15.setText("jLabel15");
+        QE_dois.setText("jLabel15");
 
-        jLabel16.setText("jLabel16");
+        QE_tres.setText("jLabel16");
 
-        jLabel17.setText("jLabel17");
+        QE_quatro.setText("jLabel17");
 
-        jLabel18.setText("jLabel18");
+        QE_cinco.setText("jLabel18");
 
-        jLabel19.setText("jLabel19");
+        Qm_zero.setText("jLabel19");
 
-        jLabel20.setText("jLabel20");
+        Qm_um.setText("jLabel20");
 
-        jLabel21.setText("jLabel21");
+        Qm_dois.setText("jLabel21");
 
-        jLabel22.setText("jLabel22");
+        Qm_tres.setText("jLabel22");
 
-        jLabel23.setText("jLabel23");
+        Qm_quatro.setText("jLabel23");
 
-        jLabel24.setText("jLabel24");
+        Qm_cinco.setText("jLabel24");
 
-        jLabel25.setText("jLabel25");
+        VU_zero.setText("jLabel25");
 
-        jLabel26.setText("jLabel26");
+        VU_um.setText("jLabel26");
 
-        jLabel27.setText("jLabel27");
+        VU_dois.setText("jLabel27");
 
-        jLabel28.setText("jLabel28");
+        VU_tres.setText("jLabel28");
 
-        jLabel29.setText("jLabel29");
+        VU_quatro.setText("jLabel29");
 
-        jLabel30.setText("jLabel30");
+        VU_cinco.setText("jLabel30");
 
-        jLabel31.setText("jLabel31");
+        VT_zero.setText("jLabel31");
 
-        jLabel32.setText("jLabel32");
+        VT_um.setText("jLabel32");
 
-        jLabel33.setText("jLabel33");
+        VT_dois.setText("jLabel33");
 
-        jLabel34.setText("jLabel34");
+        VT_tres.setText("jLabel34");
 
-        jLabel35.setText("jLabel35");
+        VT_quatro.setText("jLabel35");
 
-        jLabel36.setText("jLabel36");
+        VT_cinco.setText("jLabel36");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -163,9 +268,6 @@ public class Frame_avaliacao extends javax.swing.JFrame {
                         .addGap(217, 217, 217)
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(mostrar_tabela))
-                    .addGroup(layout.createSequentialGroup()
                         .addGap(16, 16, 16)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
@@ -175,32 +277,32 @@ public class Frame_avaliacao extends javax.swing.JFrame {
                                 .addGap(85, 85, 85))
                             .addGroup(layout.createSequentialGroup()
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel10)
-                                    .addComponent(jLabel8)
-                                    .addComponent(jLabel7)
-                                    .addComponent(jLabel9)
-                                    .addComponent(jLabel11)
-                                    .addComponent(jLabel12))
+                                    .addComponent(ing_tres)
+                                    .addComponent(ing_um)
+                                    .addComponent(ing_zero)
+                                    .addComponent(ing_dois)
+                                    .addComponent(ing_quatro)
+                                    .addComponent(ing_cinco))
                                 .addGap(101, 101, 101)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel14)
-                                    .addComponent(jLabel13)
-                                    .addComponent(jLabel15)
-                                    .addComponent(jLabel16)
-                                    .addComponent(jLabel17)
-                                    .addComponent(jLabel18))
+                                    .addComponent(QE_um)
+                                    .addComponent(QE_zero)
+                                    .addComponent(QE_dois)
+                                    .addComponent(QE_tres)
+                                    .addComponent(QE_quatro)
+                                    .addComponent(QE_cinco))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel4)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(20, 20, 20)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel20)
-                                    .addComponent(jLabel19)
-                                    .addComponent(jLabel21)
-                                    .addComponent(jLabel22)
-                                    .addComponent(jLabel23)
-                                    .addComponent(jLabel24))))
+                                    .addComponent(Qm_um)
+                                    .addComponent(Qm_zero)
+                                    .addComponent(Qm_dois)
+                                    .addComponent(Qm_tres)
+                                    .addComponent(Qm_quatro)
+                                    .addComponent(Qm_cinco))))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(80, 80, 80)
@@ -209,24 +311,24 @@ public class Frame_avaliacao extends javax.swing.JFrame {
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(jLabel26)
-                                    .addComponent(jLabel25)
-                                    .addComponent(jLabel27)
-                                    .addComponent(jLabel28)
-                                    .addComponent(jLabel29)
-                                    .addComponent(jLabel30))
+                                    .addComponent(VU_um)
+                                    .addComponent(VU_zero)
+                                    .addComponent(VU_dois)
+                                    .addComponent(VU_tres)
+                                    .addComponent(VU_quatro)
+                                    .addComponent(VU_cinco))
                                 .addGap(98, 98, 98)))
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel6)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(6, 6, 6)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(jLabel32)
-                                    .addComponent(jLabel31)
-                                    .addComponent(jLabel33)
-                                    .addComponent(jLabel34)
-                                    .addComponent(jLabel35)
-                                    .addComponent(jLabel36))))))
+                                    .addComponent(VT_um)
+                                    .addComponent(VT_zero)
+                                    .addComponent(VT_dois)
+                                    .addComponent(VT_tres)
+                                    .addComponent(VT_quatro)
+                                    .addComponent(VT_cinco))))))
                 .addGap(26, 26, 26))
         );
         layout.setVerticalGroup(
@@ -234,9 +336,7 @@ public class Frame_avaliacao extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addComponent(jLabel1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(mostrar_tabela)
-                .addGap(18, 18, 18)
+                .addGap(54, 54, 54)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel2)
                     .addComponent(jLabel3)
@@ -245,57 +345,51 @@ public class Frame_avaliacao extends javax.swing.JFrame {
                     .addComponent(jLabel6))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel7)
-                    .addComponent(jLabel13)
-                    .addComponent(jLabel19)
-                    .addComponent(jLabel25)
-                    .addComponent(jLabel31))
+                    .addComponent(ing_zero)
+                    .addComponent(QE_zero)
+                    .addComponent(Qm_zero)
+                    .addComponent(VU_zero)
+                    .addComponent(VT_zero))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel8)
-                    .addComponent(jLabel14)
-                    .addComponent(jLabel20)
-                    .addComponent(jLabel26)
-                    .addComponent(jLabel32))
+                    .addComponent(ing_um)
+                    .addComponent(QE_um)
+                    .addComponent(Qm_um)
+                    .addComponent(VU_um)
+                    .addComponent(VT_um))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel9)
-                    .addComponent(jLabel15)
-                    .addComponent(jLabel21)
-                    .addComponent(jLabel27)
-                    .addComponent(jLabel33))
+                    .addComponent(ing_dois)
+                    .addComponent(QE_dois)
+                    .addComponent(Qm_dois)
+                    .addComponent(VU_dois)
+                    .addComponent(VT_dois))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel10)
-                    .addComponent(jLabel16)
-                    .addComponent(jLabel22)
-                    .addComponent(jLabel28)
-                    .addComponent(jLabel34))
+                    .addComponent(ing_tres)
+                    .addComponent(QE_tres)
+                    .addComponent(Qm_tres)
+                    .addComponent(VU_tres)
+                    .addComponent(VT_tres))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel11)
-                    .addComponent(jLabel17)
-                    .addComponent(jLabel23)
-                    .addComponent(jLabel29)
-                    .addComponent(jLabel35))
+                    .addComponent(ing_quatro)
+                    .addComponent(QE_quatro)
+                    .addComponent(Qm_quatro)
+                    .addComponent(VU_quatro)
+                    .addComponent(VT_quatro))
                 .addGap(18, 18, 18)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel12)
-                    .addComponent(jLabel18)
-                    .addComponent(jLabel24)
-                    .addComponent(jLabel30)
-                    .addComponent(jLabel36))
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addComponent(ing_cinco)
+                    .addComponent(QE_cinco)
+                    .addComponent(Qm_cinco)
+                    .addComponent(VU_cinco)
+                    .addComponent(VT_cinco))
+                .addContainerGap(14, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void mostrar_tabelaActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_mostrar_tabelaActionPerformed
-        // TODO add your handling code here:
-        
-        
-    }//GEN-LAST:event_mostrar_tabelaActionPerformed
 
     /**
      * @param args the command line arguments
@@ -333,42 +427,41 @@ public class Frame_avaliacao extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel QE_cinco;
+    private javax.swing.JLabel QE_dois;
+    private javax.swing.JLabel QE_quatro;
+    private javax.swing.JLabel QE_tres;
+    private javax.swing.JLabel QE_um;
+    private javax.swing.JLabel QE_zero;
+    private javax.swing.JLabel Qm_cinco;
+    private javax.swing.JLabel Qm_dois;
+    private javax.swing.JLabel Qm_quatro;
+    private javax.swing.JLabel Qm_tres;
+    private javax.swing.JLabel Qm_um;
+    private javax.swing.JLabel Qm_zero;
+    private javax.swing.JLabel VT_cinco;
+    private javax.swing.JLabel VT_dois;
+    private javax.swing.JLabel VT_quatro;
+    private javax.swing.JLabel VT_tres;
+    private javax.swing.JLabel VT_um;
+    private javax.swing.JLabel VT_zero;
+    private javax.swing.JLabel VU_cinco;
+    private javax.swing.JLabel VU_dois;
+    private javax.swing.JLabel VU_quatro;
+    private javax.swing.JLabel VU_tres;
+    private javax.swing.JLabel VU_um;
+    private javax.swing.JLabel VU_zero;
+    private javax.swing.JLabel ing_cinco;
+    private javax.swing.JLabel ing_dois;
+    private javax.swing.JLabel ing_quatro;
+    private javax.swing.JLabel ing_tres;
+    private javax.swing.JLabel ing_um;
+    private javax.swing.JLabel ing_zero;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
-    private javax.swing.JLabel jLabel15;
-    private javax.swing.JLabel jLabel16;
-    private javax.swing.JLabel jLabel17;
-    private javax.swing.JLabel jLabel18;
-    private javax.swing.JLabel jLabel19;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel20;
-    private javax.swing.JLabel jLabel21;
-    private javax.swing.JLabel jLabel22;
-    private javax.swing.JLabel jLabel23;
-    private javax.swing.JLabel jLabel24;
-    private javax.swing.JLabel jLabel25;
-    private javax.swing.JLabel jLabel26;
-    private javax.swing.JLabel jLabel27;
-    private javax.swing.JLabel jLabel28;
-    private javax.swing.JLabel jLabel29;
     private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel30;
-    private javax.swing.JLabel jLabel31;
-    private javax.swing.JLabel jLabel32;
-    private javax.swing.JLabel jLabel33;
-    private javax.swing.JLabel jLabel34;
-    private javax.swing.JLabel jLabel35;
-    private javax.swing.JLabel jLabel36;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
-    private javax.swing.JLabel jLabel8;
-    private javax.swing.JLabel jLabel9;
-    private javax.swing.JButton mostrar_tabela;
     // End of variables declaration//GEN-END:variables
 }

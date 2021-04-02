@@ -30,10 +30,6 @@
                       <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace max="-2" attributes="0"/>
-                      <Component id="mostrar_tabela" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="0" attributes="0">
@@ -44,21 +40,21 @@
                           </Group>
                           <Group type="102" alignment="0" attributes="0">
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel9" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel11" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel12" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ing_tres" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ing_um" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ing_zero" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ing_dois" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ing_quatro" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="ing_cinco" alignment="1" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="101" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel14" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel17" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                                  <Component id="QE_um" min="-2" max="-2" attributes="0"/>
+                                  <Component id="QE_zero" min="-2" max="-2" attributes="0"/>
+                                  <Component id="QE_dois" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="QE_tres" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="QE_quatro" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="QE_cinco" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace max="32767" attributes="0"/>
                           </Group>
@@ -68,12 +64,12 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="jLabel20" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel19" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel21" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel22" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel23" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel24" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Qm_um" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Qm_zero" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Qm_dois" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Qm_tres" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Qm_quatro" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Qm_cinco" alignment="1" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -86,12 +82,12 @@
                           <Group type="102" alignment="1" attributes="0">
                               <EmptySpace max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="jLabel26" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel25" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel27" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel28" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel29" alignment="1" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel30" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VU_um" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VU_zero" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VU_dois" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VU_tres" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VU_quatro" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VU_cinco" alignment="1" min="-2" max="-2" attributes="0"/>
                               </Group>
                               <EmptySpace min="-2" pref="98" max="-2" attributes="0"/>
                           </Group>
@@ -101,12 +97,12 @@
                           <Group type="102" alignment="0" attributes="0">
                               <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jLabel32" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel31" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel33" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel34" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel35" alignment="0" min="-2" max="-2" attributes="0"/>
-                                  <Component id="jLabel36" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VT_um" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VT_zero" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VT_dois" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VT_tres" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VT_quatro" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VT_cinco" alignment="0" min="-2" max="-2" attributes="0"/>
                               </Group>
                           </Group>
                       </Group>
@@ -121,9 +117,7 @@
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="mostrar_tabela" min="-2" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
                   <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -133,53 +127,53 @@
               </Group>
               <EmptySpace type="unrelated" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel13" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel19" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel25" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel31" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ing_zero" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="QE_zero" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Qm_zero" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VU_zero" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VT_zero" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel20" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel26" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel32" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ing_um" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="QE_um" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Qm_um" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VU_um" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VT_um" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel9" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel21" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel27" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel33" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ing_dois" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="QE_dois" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Qm_dois" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VU_dois" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VT_dois" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel28" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel34" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ing_tres" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="QE_tres" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Qm_tres" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VU_tres" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VT_tres" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel17" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel29" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel35" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ing_quatro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="QE_quatro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Qm_quatro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VU_quatro" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VT_quatro" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jLabel12" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel24" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel30" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="jLabel36" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ing_cinco" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="QE_cinco" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Qm_cinco" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VU_cinco" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="VT_cinco" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace max="32767" attributes="0"/>
+              <EmptySpace pref="14" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -192,14 +186,6 @@
         </Property>
         <Property name="text" type="java.lang.String" value="Papa&apos;s Hamburgueria"/>
       </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="mostrar_tabela">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="clique para atualizar a tabela"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="mostrar_tabelaActionPerformed"/>
-      </Events>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel2">
       <Properties>
@@ -226,152 +212,152 @@
         <Property name="text" type="java.lang.String" value="Valor Total"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel7">
+    <Component class="javax.swing.JLabel" name="ing_zero">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel7"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel8">
+    <Component class="javax.swing.JLabel" name="ing_um">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel8"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel9">
+    <Component class="javax.swing.JLabel" name="ing_dois">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel9"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel10">
+    <Component class="javax.swing.JLabel" name="ing_tres">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel10"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel11">
+    <Component class="javax.swing.JLabel" name="ing_quatro">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel11"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel12">
+    <Component class="javax.swing.JLabel" name="ing_cinco">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel12"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel13">
+    <Component class="javax.swing.JLabel" name="QE_zero">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel13"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel14">
+    <Component class="javax.swing.JLabel" name="QE_um">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel14"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel15">
+    <Component class="javax.swing.JLabel" name="QE_dois">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel15"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel16">
+    <Component class="javax.swing.JLabel" name="QE_tres">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel16"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel17">
+    <Component class="javax.swing.JLabel" name="QE_quatro">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel17"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel18">
+    <Component class="javax.swing.JLabel" name="QE_cinco">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel18"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel19">
+    <Component class="javax.swing.JLabel" name="Qm_zero">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel19"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel20">
+    <Component class="javax.swing.JLabel" name="Qm_um">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel20"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel21">
+    <Component class="javax.swing.JLabel" name="Qm_dois">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel21"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel22">
+    <Component class="javax.swing.JLabel" name="Qm_tres">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel22"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel23">
+    <Component class="javax.swing.JLabel" name="Qm_quatro">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel23"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel24">
+    <Component class="javax.swing.JLabel" name="Qm_cinco">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel24"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel25">
+    <Component class="javax.swing.JLabel" name="VU_zero">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel25"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel26">
+    <Component class="javax.swing.JLabel" name="VU_um">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel26"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel27">
+    <Component class="javax.swing.JLabel" name="VU_dois">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel27"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel28">
+    <Component class="javax.swing.JLabel" name="VU_tres">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel28"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel29">
+    <Component class="javax.swing.JLabel" name="VU_quatro">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel29"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel30">
+    <Component class="javax.swing.JLabel" name="VU_cinco">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel30"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel31">
+    <Component class="javax.swing.JLabel" name="VT_zero">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel31"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel32">
+    <Component class="javax.swing.JLabel" name="VT_um">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel32"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel33">
+    <Component class="javax.swing.JLabel" name="VT_dois">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel33"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel34">
+    <Component class="javax.swing.JLabel" name="VT_tres">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel34"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel35">
+    <Component class="javax.swing.JLabel" name="VT_quatro">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel35"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel36">
+    <Component class="javax.swing.JLabel" name="VT_cinco">
       <Properties>
         <Property name="text" type="java.lang.String" value="jLabel36"/>
       </Properties>
