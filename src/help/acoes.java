@@ -19,6 +19,15 @@ public class acoes {
     private String colunas[] = {"Ingredientes", "Quant. Estoque", "Quant. Mínima", "Valor Unitário", "Valor Total"};
     //Frame_avaliacao Tela = new Frame_avaliacao();
     
+     public int getRowCount() {
+        return ingredientes.();
+    }
+    //retorna o total de colunas da tabela
+   
+    public int getColumnCount() {
+        return colunas.length;
+    }
+    
     
     public void cadastro () {
    
