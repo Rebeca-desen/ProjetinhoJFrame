@@ -5,7 +5,6 @@
  */
 package help;
 
-import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
 
 /**
@@ -108,7 +107,9 @@ public class acoes {
     
     }
 
-   
+   void tudin(){
+       
+   }
 
   
 
