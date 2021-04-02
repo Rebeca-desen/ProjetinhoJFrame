@@ -5,7 +5,6 @@
  */
 package help;
 
-import java.util.Arrays;
 import javax.swing.JOptionPane;
 
 /**
@@ -17,10 +16,6 @@ public class acoes {
     public static String[] ingredientes = new String[6];
     public static float[][] estoque = new float[6][3];
     public static float[] valor_final = new float[6];
-
-    /**
-     *
-     */
     public static float[] valor_total = new float[6];
    
     
@@ -117,12 +112,12 @@ public class acoes {
    void tudin(){
    
         
-        valor_total[0]= estoque[0][0] * estoque[0][2];
-        valor_total[1]= estoque[1][0] * estoque[1][2];
-        valor_total[2]= estoque[2][0] * estoque[2][2];
-        valor_total[3]= estoque[3][0] * estoque[3][2];
-        valor_total[4]= estoque[4][0] * estoque[4][2];
-        valor_total[5]= estoque[5][0] * estoque[5][2];
+        valor_total[0]= estoque[0][0]*estoque[0][2];
+        valor_total[1]= estoque[1][0]*estoque[1][2];
+        valor_total[2]= estoque[2][0]*estoque[2][2];
+        valor_total[3]= estoque[3][0]*estoque[3][2];
+        valor_total[4]= estoque[4][0]*estoque[4][2];
+        valor_total[5]= estoque[5][0]*estoque[5][2];
         
         
           }

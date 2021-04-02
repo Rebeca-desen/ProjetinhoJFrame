@@ -44,6 +44,7 @@ public class Frame_avaliacao extends javax.swing.JFrame {
         ing_zero = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
+        botao = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -66,6 +67,13 @@ public class Frame_avaliacao extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
+        botao.setText("atualize");
+        botao.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                botaoActionPerformed(evt);
+            }
+        });
+
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -80,7 +88,10 @@ public class Frame_avaliacao extends javax.swing.JFrame {
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(24, 24, 24)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 676, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 676, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(37, 37, 37)
+                        .addComponent(botao)))
                 .addContainerGap(24, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -88,7 +99,9 @@ public class Frame_avaliacao extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addComponent(jLabel1)
-                .addGap(94, 94, 94)
+                .addGap(36, 36, 36)
+                .addComponent(botao)
+                .addGap(34, 34, 34)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(190, 190, 190)
                 .addComponent(ing_zero)
@@ -97,6 +110,13 @@ public class Frame_avaliacao extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void botaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoActionPerformed
+        // TODO add your handling code here:
+        acoes fe= new acoes();
+        fe.tudin();
+        
+    }//GEN-LAST:event_botaoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -134,6 +154,7 @@ public class Frame_avaliacao extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton botao;
     private javax.swing.JLabel ing_zero;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
