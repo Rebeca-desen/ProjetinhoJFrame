@@ -17,8 +17,11 @@ public class acoes {
     public static String[] ingredientes = new String[6];
     public static float[][] estoque = new float[6][3];
     public static float[] valor_final = new float[6];
-    
-    Frame_avaliacao Tela = new Frame_avaliacao();
+
+    /**
+     *
+     */
+    public static float[] valor_total = new float[6];
    
     
     public void cadastro () {
@@ -112,7 +115,11 @@ public class acoes {
     }
 
    void tudin(){
-      Tela.setjLabel7(ingredientes);
+   
+        for(int i=0; i < valor_total.length; i++){
+        valor_total[i]= estoque[i][0] * estoque[i][2];
+        i++;
+    }    }
    }
 
   
@@ -123,7 +130,7 @@ public class acoes {
     
 
         
-}
+
 
 
 

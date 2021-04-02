@@ -5,6 +5,9 @@
  */
 package help;
 
+import static help.acoes.estoque;
+import static help.acoes.ingredientes;
+import static help.acoes.valor_total;
 import java.awt.Color;
 import javax.swing.JLabel;
 
@@ -14,118 +17,8 @@ import javax.swing.JLabel;
  */
 public class Frame_avaliacao extends javax.swing.JFrame {
 
-    public void setjLabel10(JLabel jLabel10) {
-        this.ing_tres = jLabel10;
-    }
-
-    public void setjLabel11(JLabel jLabel11) {
-        this.ing_quatro = jLabel11;
-    }
-
-    public void setjLabel12(JLabel jLabel12) {
-        this.ing_cinco = jLabel12;
-    }
-
-    public void setjLabel13(JLabel jLabel13) {
-        this.QE_zero = jLabel13;
-    }
-
-    public void setjLabel14(JLabel jLabel14) {
-        this.QE_um = jLabel14;
-    }
-
-    public void setjLabel15(JLabel jLabel15) {
-        this.QE_dois = jLabel15;
-    }
-
-    public void setjLabel17(JLabel jLabel17) {
-        this.QE_quatro = jLabel17;
-    }
-
-    public void setjLabel18(JLabel jLabel18) {
-        this.QE_cinco = jLabel18;
-    }
-
-    public void setjLabel19(JLabel jLabel19) {
-        this.Qm_zero = jLabel19;
-    }
-
-    public void setjLabel20(JLabel jLabel20) {
-        this.Qm_um = jLabel20;
-    }
-
-    public void setjLabel21(JLabel jLabel21) {
-        this.Qm_dois = jLabel21;
-    }
-
-    public void setjLabel22(JLabel jLabel22) {
-        this.Qm_tres = jLabel22;
-    }
-
-    public void setjLabel23(JLabel jLabel23) {
-        this.Qm_quatro = jLabel23;
-    }
-
-    public void setjLabel25(JLabel jLabel25) {
-        this.VU_zero = jLabel25;
-    }
-
-    public void setjLabel26(JLabel jLabel26) {
-        this.VU_um = jLabel26;
-    }
-
-    public void setjLabel27(JLabel jLabel27) {
-        this.VU_dois = jLabel27;
-    }
-
-    public void setjLabel28(JLabel jLabel28) {
-        this.VU_tres = jLabel28;
-    }
-
-    public void setjLabel29(JLabel jLabel29) {
-        this.VU_quatro = jLabel29;
-    }
-
-    public void setjLabel30(JLabel jLabel30) {
-        this.VU_cinco = jLabel30;
-    }
-
-    public void setjLabel31(JLabel jLabel31) {
-        this.VT_zero = jLabel31;
-    }
-
-    public void setjLabel32(JLabel jLabel32) {
-        this.VT_um = jLabel32;
-    }
-
-    public void setjLabel33(JLabel jLabel33) {
-        this.VT_dois = jLabel33;
-    }
-
-    public void setjLabel34(JLabel jLabel34) {
-        this.VT_tres = jLabel34;
-    }
-
-    public void setjLabel35(JLabel jLabel35) {
-        this.VT_quatro = jLabel35;
-    }
-
-    public void setjLabel36(JLabel jLabel36) {
-        this.VT_cinco = jLabel36;
-    }
-
-    public void setjLabel7(String[] jLabel7) {
-        
-        this.ing_zero.setText(jLabel7[0]);
-    }
-
-    public void setjLabel8(JLabel jLabel8) {
-        this.ing_um = jLabel8;
-    }
-
-    public void setjLabel9(JLabel jLabel9) {
-        this.ing_dois = jLabel9;
-    }
+ 
+    
 
     /**
      * Creates new form Frame_avaliacao
@@ -148,114 +41,30 @@ public class Frame_avaliacao extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
-        jLabel3 = new javax.swing.JLabel();
-        jLabel4 = new javax.swing.JLabel();
-        jLabel5 = new javax.swing.JLabel();
-        jLabel6 = new javax.swing.JLabel();
         ing_zero = new javax.swing.JLabel();
-        ing_um = new javax.swing.JLabel();
-        ing_dois = new javax.swing.JLabel();
-        ing_tres = new javax.swing.JLabel();
-        ing_quatro = new javax.swing.JLabel();
-        ing_cinco = new javax.swing.JLabel();
-        QE_zero = new javax.swing.JLabel();
-        QE_um = new javax.swing.JLabel();
-        QE_dois = new javax.swing.JLabel();
-        QE_tres = new javax.swing.JLabel();
-        QE_quatro = new javax.swing.JLabel();
-        QE_cinco = new javax.swing.JLabel();
-        Qm_zero = new javax.swing.JLabel();
-        Qm_um = new javax.swing.JLabel();
-        Qm_dois = new javax.swing.JLabel();
-        Qm_tres = new javax.swing.JLabel();
-        Qm_quatro = new javax.swing.JLabel();
-        Qm_cinco = new javax.swing.JLabel();
-        VU_zero = new javax.swing.JLabel();
-        VU_um = new javax.swing.JLabel();
-        VU_dois = new javax.swing.JLabel();
-        VU_tres = new javax.swing.JLabel();
-        VU_quatro = new javax.swing.JLabel();
-        VU_cinco = new javax.swing.JLabel();
-        VT_zero = new javax.swing.JLabel();
-        VT_um = new javax.swing.JLabel();
-        VT_dois = new javax.swing.JLabel();
-        VT_tres = new javax.swing.JLabel();
-        VT_quatro = new javax.swing.JLabel();
-        VT_cinco = new javax.swing.JLabel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTable1 = new javax.swing.JTable();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
         jLabel1.setFont(new java.awt.Font("Elephant", 1, 24)); // NOI18N
         jLabel1.setText("Papa's Hamburgueria");
 
-        jLabel2.setText("Ingredientes");
+        jTable1.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
 
-        jLabel3.setText("Quant. Estoque");
-
-        jLabel4.setText("Quant. mínima");
-
-        jLabel5.setText("Valor Unitário");
-
-        jLabel6.setText("Valor Total");
-
-        ing_um.setText("jLabel8");
-
-        ing_dois.setText("jLabel9");
-
-        ing_tres.setText("jLabel10");
-
-        ing_quatro.setText("jLabel11");
-
-        ing_cinco.setText("jLabel12");
-
-        QE_zero.setText("jLabel13");
-
-        QE_um.setText("jLabel14");
-
-        QE_dois.setText("jLabel15");
-
-        QE_tres.setText("jLabel16");
-
-        QE_quatro.setText("jLabel17");
-
-        QE_cinco.setText("jLabel18");
-
-        Qm_zero.setText("jLabel19");
-
-        Qm_um.setText("jLabel20");
-
-        Qm_dois.setText("jLabel21");
-
-        Qm_tres.setText("jLabel22");
-
-        Qm_quatro.setText("jLabel23");
-
-        Qm_cinco.setText("jLabel24");
-
-        VU_zero.setText("jLabel25");
-
-        VU_um.setText("jLabel26");
-
-        VU_dois.setText("jLabel27");
-
-        VU_tres.setText("jLabel28");
-
-        VU_quatro.setText("jLabel29");
-
-        VU_cinco.setText("jLabel30");
-
-        VT_zero.setText("jLabel31");
-
-        VT_um.setText("jLabel32");
-
-        VT_dois.setText("jLabel33");
-
-        VT_tres.setText("jLabel34");
-
-        VT_quatro.setText("jLabel35");
-
-        VT_cinco.setText("jLabel36");
+                {ingredientes[0], estoque[0][0], estoque[0][1], estoque[0][2], valor_total[0]},
+                {ingredientes[1], estoque[1][0], estoque[1][1], estoque[1][2], valor_total[1]},
+                {ingredientes[2], estoque[2][0], estoque[2][1], estoque[2][2], valor_total[2]},
+                {ingredientes[3], estoque[3][0], estoque[3][1], estoque[3][2], valor_total[3]},
+                {ingredientes[4], estoque[4][0], estoque[4][1], estoque[4][2], valor_total[4]},
+                {ingredientes[5], estoque[5][0], estoque[5][1], estoque[5][2], valor_total[5]}
+            },
+            new String [] {
+                "Ingredientes", "Quant. Estoque", "Quant. Mínima", "Valor Unitário", "Valor Total"
+            }
+        ));
+        jScrollPane1.setViewportView(jTable1);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -264,127 +73,26 @@ public class Frame_avaliacao extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(layout.createSequentialGroup()
+                        .addGap(64, 64, 64)
+                        .addComponent(ing_zero))
+                    .addGroup(layout.createSequentialGroup()
                         .addGap(217, 217, 217)
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(16, 16, 16)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addComponent(jLabel2)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 63, Short.MAX_VALUE)
-                                .addComponent(jLabel3)
-                                .addGap(85, 85, 85))
-                            .addGroup(layout.createSequentialGroup()
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(ing_tres)
-                                    .addComponent(ing_um)
-                                    .addComponent(ing_zero)
-                                    .addComponent(ing_dois)
-                                    .addComponent(ing_quatro)
-                                    .addComponent(ing_cinco))
-                                .addGap(101, 101, 101)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(QE_um)
-                                    .addComponent(QE_zero)
-                                    .addComponent(QE_dois)
-                                    .addComponent(QE_tres)
-                                    .addComponent(QE_quatro)
-                                    .addComponent(QE_cinco))
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel4)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(20, 20, 20)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(Qm_um)
-                                    .addComponent(Qm_zero)
-                                    .addComponent(Qm_dois)
-                                    .addComponent(Qm_tres)
-                                    .addComponent(Qm_quatro)
-                                    .addComponent(Qm_cinco))))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(80, 80, 80)
-                                .addComponent(jLabel5)
-                                .addGap(87, 87, 87))
-                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                    .addComponent(VU_um)
-                                    .addComponent(VU_zero)
-                                    .addComponent(VU_dois)
-                                    .addComponent(VU_tres)
-                                    .addComponent(VU_quatro)
-                                    .addComponent(VU_cinco))
-                                .addGap(98, 98, 98)))
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel6)
-                            .addGroup(layout.createSequentialGroup()
-                                .addGap(6, 6, 6)
-                                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(VT_um)
-                                    .addComponent(VT_zero)
-                                    .addComponent(VT_dois)
-                                    .addComponent(VT_tres)
-                                    .addComponent(VT_quatro)
-                                    .addComponent(VT_cinco))))))
-                .addGap(26, 26, 26))
+                        .addGap(24, 24, 24)
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 676, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(24, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addComponent(jLabel1)
-                .addGap(54, 54, 54)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel2)
-                    .addComponent(jLabel3)
-                    .addComponent(jLabel4)
-                    .addComponent(jLabel5)
-                    .addComponent(jLabel6))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ing_zero)
-                    .addComponent(QE_zero)
-                    .addComponent(Qm_zero)
-                    .addComponent(VU_zero)
-                    .addComponent(VT_zero))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ing_um)
-                    .addComponent(QE_um)
-                    .addComponent(Qm_um)
-                    .addComponent(VU_um)
-                    .addComponent(VT_um))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ing_dois)
-                    .addComponent(QE_dois)
-                    .addComponent(Qm_dois)
-                    .addComponent(VU_dois)
-                    .addComponent(VT_dois))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ing_tres)
-                    .addComponent(QE_tres)
-                    .addComponent(Qm_tres)
-                    .addComponent(VU_tres)
-                    .addComponent(VT_tres))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ing_quatro)
-                    .addComponent(QE_quatro)
-                    .addComponent(Qm_quatro)
-                    .addComponent(VU_quatro)
-                    .addComponent(VT_quatro))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(ing_cinco)
-                    .addComponent(QE_cinco)
-                    .addComponent(Qm_cinco)
-                    .addComponent(VU_cinco)
-                    .addComponent(VT_cinco))
-                .addContainerGap(14, Short.MAX_VALUE))
+                .addGap(94, 94, 94)
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(190, 190, 190)
+                .addComponent(ing_zero)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -426,41 +134,9 @@ public class Frame_avaliacao extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel QE_cinco;
-    private javax.swing.JLabel QE_dois;
-    private javax.swing.JLabel QE_quatro;
-    private javax.swing.JLabel QE_tres;
-    private javax.swing.JLabel QE_um;
-    private javax.swing.JLabel QE_zero;
-    private javax.swing.JLabel Qm_cinco;
-    private javax.swing.JLabel Qm_dois;
-    private javax.swing.JLabel Qm_quatro;
-    private javax.swing.JLabel Qm_tres;
-    private javax.swing.JLabel Qm_um;
-    private javax.swing.JLabel Qm_zero;
-    private javax.swing.JLabel VT_cinco;
-    private javax.swing.JLabel VT_dois;
-    private javax.swing.JLabel VT_quatro;
-    private javax.swing.JLabel VT_tres;
-    private javax.swing.JLabel VT_um;
-    private javax.swing.JLabel VT_zero;
-    private javax.swing.JLabel VU_cinco;
-    private javax.swing.JLabel VU_dois;
-    private javax.swing.JLabel VU_quatro;
-    private javax.swing.JLabel VU_tres;
-    private javax.swing.JLabel VU_um;
-    private javax.swing.JLabel VU_zero;
-    private javax.swing.JLabel ing_cinco;
-    private javax.swing.JLabel ing_dois;
-    private javax.swing.JLabel ing_quatro;
-    private javax.swing.JLabel ing_tres;
-    private javax.swing.JLabel ing_um;
     private javax.swing.JLabel ing_zero;
     private javax.swing.JLabel jLabel1;
-    private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
-    private javax.swing.JLabel jLabel4;
-    private javax.swing.JLabel jLabel5;
-    private javax.swing.JLabel jLabel6;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTable jTable1;
     // End of variables declaration//GEN-END:variables
 }
