@@ -115,10 +115,9 @@ public class acoes {
              if(estoque[i][0] < estoque[i][1]){
                 descricao[i]="MM"; 
              }
-             
+             else{
              descricao[i]="Normal"; 
-             
-             i++;
+             }
          }
          }
         
