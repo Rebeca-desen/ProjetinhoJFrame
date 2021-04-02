@@ -112,8 +112,7 @@ public class acoes {
     }
 
    void tudin(){
-     
-      Tela.setjLabel7(Arrays.toString(ingredientes));
+      Tela.setjLabel7(ingredientes);
    }
 
   

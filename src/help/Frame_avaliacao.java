@@ -114,9 +114,9 @@ public class Frame_avaliacao extends javax.swing.JFrame {
         this.VT_cinco = jLabel36;
     }
 
-    public void setjLabel7(String jLabel7) {
+    public void setjLabel7(String[] jLabel7) {
         
-        this.ing_zero.setText(jLabel7);
+        this.ing_zero.setText(jLabel7[0]);
     }
 
     public void setjLabel8(JLabel jLabel8) {
