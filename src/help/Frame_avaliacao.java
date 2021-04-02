@@ -54,7 +54,7 @@ public class Frame_avaliacao extends javax.swing.JFrame {
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
-                {ingredientes[0], estoque[0][0], estoque[0][1], estoque[0][2], valor_total[0]},
+                {ingredientes[0], estoque[0][0], estoque[0][1], estoque[0][2], estoque[0][0]*estoque[0][2]},
                 {ingredientes[1], estoque[1][0], estoque[1][1], estoque[1][2], valor_total[1]},
                 {ingredientes[2], estoque[2][0], estoque[2][1], estoque[2][2], valor_total[2]},
                 {ingredientes[3], estoque[3][0], estoque[3][1], estoque[3][2], valor_total[3]},
@@ -113,9 +113,13 @@ public class Frame_avaliacao extends javax.swing.JFrame {
 
     private void botaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoActionPerformed
         // TODO add your handling code here:
-        acoes fe= new acoes();
-        fe.tudin();
-        
+        /* valor_total[0]= estoque[0][0]*estoque[0][2];
+        valor_total[1]= estoque[1][0]*estoque[1][2];
+        valor_total[2]= estoque[2][0]*estoque[2][2];
+        valor_total[3]= estoque[3][0]*estoque[3][2];
+        valor_total[4]= estoque[4][0]*estoque[4][2];
+        valor_total[5]= estoque[5][0]*estoque[5][2];
+        */
     }//GEN-LAST:event_botaoActionPerformed
 
     /**
