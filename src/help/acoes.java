@@ -16,7 +16,8 @@ public class acoes {
     public static String[] ingredientes = new String[6];
     public static float[][] estoque = new float[6][3];
     public static float[] valor_final = new float[6];
-    Frame_avaliacao Tela = new Frame_avaliacao();
+    private String colunas[] = {"Ingredientes", "Quant. Estoque", "Quant. Mínima", "Valor Unitário", "Valor Total"};
+    //Frame_avaliacao Tela = new Frame_avaliacao();
     
     
     public void cadastro () {
@@ -110,7 +111,7 @@ public class acoes {
     }
 
    void tudin(){
-       Tela.setjLabel7(ingredientes[0]);
+      
    }
 
   
