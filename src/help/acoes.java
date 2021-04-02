@@ -106,12 +106,11 @@ public class acoes {
            JOptionPane.showMessageDialog(null, "bye bye adeus");
         }
         }
- 
+       
     }
 
-   void tudin(){
+    float[] tudin(){
    
-        
         valor_total[0]= estoque[0][0]*estoque[0][2];
         valor_total[1]= estoque[1][0]*estoque[1][2];
         valor_total[2]= estoque[2][0]*estoque[2][2];
@@ -119,7 +118,7 @@ public class acoes {
         valor_total[4]= estoque[4][0]*estoque[4][2];
         valor_total[5]= estoque[5][0]*estoque[5][2];
         
-        
+        return valor_total;
           }
    }
 
