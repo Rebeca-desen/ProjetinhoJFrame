@@ -30,7 +30,7 @@ public class acoes {
         }
 
         for (int i = 0; i < estoque.length; i++) {
-            for (int iEstoque = 0; iEstoque < estoque[i].length; iEstoque++) {
+          
 
                 input_estoque = JOptionPane.showInputDialog(null, "Adicione a quantidade de " + ingredientes[i] + " em estoque");
                 estoque[i][0] = Float.valueOf(input_estoque);
@@ -47,8 +47,8 @@ public class acoes {
                     JOptionPane.showMessageDialog(null, "Inválido. Valor Unitário não pode ser 0.");
                     continue;
                 }
-                i++;
-            }
+              
+            
         }
 
     }
