@@ -114,8 +114,8 @@ public class Frame_avaliacao extends javax.swing.JFrame {
         this.VT_cinco = jLabel36;
     }
 
-    public void setjLabel7(JLabel jLabel7) {
-        this.ing_zero = jLabel7;
+    public void setjLabel7(String jLabel7) {
+        this.ing_zero.setText(jLabel7);
     }
 
     public void setjLabel8(JLabel jLabel8) {
@@ -197,8 +197,6 @@ public class Frame_avaliacao extends javax.swing.JFrame {
         jLabel5.setText("Valor Unitário");
 
         jLabel6.setText("Valor Total");
-
-        ing_zero.setText("jLabel7");
 
         ing_um.setText("jLabel8");
 
