@@ -5,6 +5,7 @@
  */
 package help;
 
+import static help.acoes.descricao;
 import static help.acoes.estoque;
 import static help.acoes.ingredientes;
 import static help.acoes.valor_total;
@@ -44,7 +45,6 @@ public class Frame_avaliacao extends javax.swing.JFrame {
         ing_zero = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTable1 = new javax.swing.JTable();
-        botao = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
@@ -54,25 +54,18 @@ public class Frame_avaliacao extends javax.swing.JFrame {
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
 
-                {ingredientes[0], estoque[0][0], estoque[0][1], estoque[0][2], estoque[0][0]*estoque[0][2]},
-                {ingredientes[1], estoque[1][0], estoque[1][1], estoque[1][2], valor_total[1]},
-                {ingredientes[2], estoque[2][0], estoque[2][1], estoque[2][2], valor_total[2]},
-                {ingredientes[3], estoque[3][0], estoque[3][1], estoque[3][2], valor_total[3]},
-                {ingredientes[4], estoque[4][0], estoque[4][1], estoque[4][2], valor_total[4]},
-                {ingredientes[5], estoque[5][0], estoque[5][1], estoque[5][2], valor_total[5]}
+                {descricao[0],ingredientes[0], estoque[0][0], estoque[0][1], estoque[0][2], estoque[0][0]*estoque[0][2]},
+                {descricao[1],ingredientes[1], estoque[1][0], estoque[1][1], estoque[1][2], estoque[1][0]*estoque[1][2]},
+                {descricao[2],ingredientes[2], estoque[2][0], estoque[2][1], estoque[2][2], estoque[2][0]*estoque[2][2]},
+                {descricao[3],ingredientes[3], estoque[3][0], estoque[3][1], estoque[3][2], estoque[3][0]*estoque[3][2]},
+                {descricao[4],ingredientes[4], estoque[4][0], estoque[4][1], estoque[4][2], estoque[4][0]*estoque[4][2]},
+                {descricao[5],ingredientes[5], estoque[5][0], estoque[5][1], estoque[5][2], estoque[5][0]*estoque[5][2]}
             },
             new String [] {
-                "Ingredientes", "Quant. Estoque", "Quant. Mínima", "Valor Unitário", "Valor Total"
+                "situação", "Ingredientes", "Quant. Estoque", "Quant. Mínima", "Valor Unitário", "Valor Total"
             }
         ));
         jScrollPane1.setViewportView(jTable1);
-
-        botao.setText("atualize");
-        botao.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botaoActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -88,10 +81,7 @@ public class Frame_avaliacao extends javax.swing.JFrame {
                         .addComponent(jLabel1))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(24, 24, 24)
-                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 676, javax.swing.GroupLayout.PREFERRED_SIZE))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(37, 37, 37)
-                        .addComponent(botao)))
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 676, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(24, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -99,9 +89,7 @@ public class Frame_avaliacao extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(17, 17, 17)
                 .addComponent(jLabel1)
-                .addGap(36, 36, 36)
-                .addComponent(botao)
-                .addGap(34, 34, 34)
+                .addGap(94, 94, 94)
                 .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(190, 190, 190)
                 .addComponent(ing_zero)
@@ -110,17 +98,6 @@ public class Frame_avaliacao extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void botaoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botaoActionPerformed
-        // TODO add your handling code here:
-        /* valor_total[0]= estoque[0][0]*estoque[0][2];
-        valor_total[1]= estoque[1][0]*estoque[1][2];
-        valor_total[2]= estoque[2][0]*estoque[2][2];
-        valor_total[3]= estoque[3][0]*estoque[3][2];
-        valor_total[4]= estoque[4][0]*estoque[4][2];
-        valor_total[5]= estoque[5][0]*estoque[5][2];
-        */
-    }//GEN-LAST:event_botaoActionPerformed
 
     /**
      * @param args the command line arguments
@@ -158,7 +135,6 @@ public class Frame_avaliacao extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton botao;
     private javax.swing.JLabel ing_zero;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;

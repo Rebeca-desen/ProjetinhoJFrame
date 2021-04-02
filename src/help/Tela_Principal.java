@@ -119,6 +119,9 @@ public class Tela_Principal extends javax.swing.JFrame {
     private void estoqueActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_estoqueActionPerformed
         // TODO add your handling code here:
         
+        acoes situacao = new acoes();
+        situacao.menor_minimo();
+        
         Frame_avaliacao Tabelin = new Frame_avaliacao(); 
         Tabelin.setVisible(true);
     }//GEN-LAST:event_estoqueActionPerformed

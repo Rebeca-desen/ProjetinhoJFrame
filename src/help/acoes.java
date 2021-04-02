@@ -17,7 +17,7 @@ public class acoes {
     public static float[][] estoque = new float[6][3];
     public static float[] valor_final = new float[6];
     public static float[] valor_total = new float[6];
-   
+   public static String[] descricao = new String[6];
     
     public void cadastro () {
    
@@ -109,18 +109,22 @@ public class acoes {
        
     }
 
-    float[] tudin(){
+    void menor_minimo(){
    
-        valor_total[0]= estoque[0][0]*estoque[0][2];
-        valor_total[1]= estoque[1][0]*estoque[1][2];
-        valor_total[2]= estoque[2][0]*estoque[2][2];
-        valor_total[3]= estoque[3][0]*estoque[3][2];
-        valor_total[4]= estoque[4][0]*estoque[4][2];
-        valor_total[5]= estoque[5][0]*estoque[5][2];
+         for (int i = 0; i < estoque.length; i++) {
+             if(estoque[i][0] < estoque[i][1]){
+                descricao[i]="MM"; 
+             }
+             
+             descricao[i]="Normal"; 
+             
+             i++;
+         }
+         }
         
-        return valor_total;
+   
           }
-   }
+   
 
   
 
