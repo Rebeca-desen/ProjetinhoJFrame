@@ -22,8 +22,7 @@ public class Teste_testando extends javax.swing.JFrame {
         renderizarTela();
     }
     
-    private JTable tabela;
-    private JScrollPane scrollPainel;
+   
 
     
         

@@ -5,6 +5,7 @@
  */
 package help;
 
+import java.util.Arrays;
 import javax.swing.JOptionPane;
 
 /**
@@ -16,18 +17,9 @@ public class acoes {
     public static String[] ingredientes = new String[6];
     public static float[][] estoque = new float[6][3];
     public static float[] valor_final = new float[6];
-    private String colunas[] = {"Ingredientes", "Quant. Estoque", "Quant. Mínima", "Valor Unitário", "Valor Total"};
-    //Frame_avaliacao Tela = new Frame_avaliacao();
     
-     public int getRowCount() {
-        return ingredientes.();
-    }
-    //retorna o total de colunas da tabela
+    Frame_avaliacao Tela = new Frame_avaliacao();
    
-    public int getColumnCount() {
-        return colunas.length;
-    }
-    
     
     public void cadastro () {
    
@@ -120,7 +112,8 @@ public class acoes {
     }
 
    void tudin(){
-      
+     
+      Tela.setjLabel7(Arrays.toString(ingredientes));
    }
 
   

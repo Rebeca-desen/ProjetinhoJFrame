@@ -115,6 +115,7 @@ public class Frame_avaliacao extends javax.swing.JFrame {
     }
 
     public void setjLabel7(String jLabel7) {
+        
         this.ing_zero.setText(jLabel7);
     }
 
